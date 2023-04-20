@@ -12,7 +12,6 @@
   border-radius: 20px;
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
   padding-right: 30px;
 }
 .reto:hover {
@@ -20,13 +19,13 @@
   transform: scale(1.01);
 }
 
-.reto_1_img {
+.reto_img {
   width: 100px;
   height: 50px;
   image-rendering: auto;
 }
 
-.reto_1_title {
+.reto_title {
   font-size: 1.5em;
   font-weight: bold;
   margin-left: 10px;

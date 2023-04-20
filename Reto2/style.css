@@ -1,0 +1,144 @@
+html {
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 50px auto;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border: 10px solid white;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  position: relative;
+  height: 100%;
+  height: 100%;
+}
+
+.hand {
+  width: 120px;
+  height: 4px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 1%;
+  transform: rotate(-90deg);
+  transition: all 0.05s;
+  transition-timing-function: ease-in;
+}
+
+.hours-hand {
+  width: 80px;
+  height: 6px;
+}
+.seconds-hand {
+  height: 1px;
+  background: red;
+}
+
+.number {
+  position: absolute;
+  font-size: 24px;
+  width: 100%;
+  color: #fff
+}
+
+.number-1 {
+  top: 20px;
+  left: 60px;
+}
+
+.number-2 {
+  top: 23%;
+  left: 110px;
+}
+
+.number-3 {
+  top: 46.5%;
+  left: 130px;
+}
+
+.number-4 {
+  top: 68%;
+  left: 110px;
+}
+
+.number-5{
+  top: 85%;
+  left: 60px;
+}
+.number-6{
+  top: 92.5%;
+  left: -5px;
+}
+
+.number-7 {
+  top: 85%;
+  left: -80px;
+}
+
+.number-8 {
+  top: 67.5%;
+  left: -130px;
+}
+
+.number-9 {
+  top: 46%;
+  left: -150px;
+}
+
+.number-10 {
+  top: 23%;
+  left: -135px;
+}
+
+.number-11 {
+  top: 20px;
+  left: -85px;
+}
+
+.number-12 {
+  top: 0;
+  left: -12px;
+}
+
+.back {
+  position: absolute;
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+  align-self: flex-start;
+  justify-self: start;
+  width: fit-content;
+  color: #ddd;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.back:hover {
+  opacity: 0.5;
+  transform: scale(1.005);
+  z-index: 1;
+}
